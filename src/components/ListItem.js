@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
-import { CardSection } from './common'
+import { CardSection } from './common';
+//* imports all actions in this file
+import * as actions from '../actions';
 
 class ListItem extends Component {
     render () {
